@@ -1,0 +1,292 @@
+repo_name: piranna/d3.chart
+report_id: 98597c0b55e6ae7aa99bfcdcee56c4fd
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-27T06:17:38+00:00'
+requested_by: jugglinmike
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: D3.js
+  description: A JavaScript visualization library for HTML and SVG
+  website_url: http://d3js.org/
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/1491/HgKolWB5_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2013-02-24 00:32:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 1.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Irene Ros
+  last_updated_on: 2014-06-24 14:41:12.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2013-11-30 23:39:03.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 1.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: build/webpack.config.js
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 00:53:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2013-02-24 00:32:42.000000000 Z
+- name: grunt-browserify
+  description: Grunt task for node-browserify
+  package_url: https://www.npmjs.com/grunt-browserify
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16310/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-contrib-jshint
+  description: Validate files with JSHint
+  package_url: https://www.npmjs.com/grunt-contrib-jshint
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-jscs
+  description: Grunt task for checking JavaScript Code Style with jscs
+  package_url: https://www.npmjs.com/grunt-jscs
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16510/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-mocha
+  description: Grunt task for running client-side Mocha specs in PhantomJS
+  package_url: https://www.npmjs.com/grunt-mocha
+  version: 0.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17369/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: grunt-webpack
+  description: Use webpack with grunt
+  package_url: https://www.npmjs.com/grunt-webpack
+  version: 1.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16985/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 01:03:37.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Mike Pennisi
+  last_updated_on: 2015-12-19 00:53:21.000000000 Z
+  vulnerabilities:
+  - name: Missing Origin Validation in webpack-dev-server
+    cve_id: CVE-2018-14732
+    cve_url: https://github.com/advisories/GHSA-cf66-xwfp-gvc4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.11
+- name: assert
+  description: Porting Node.js assert.js to browser
+  package_url: http://bower.io/assert
+  version: 0.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Irene Ros
+  last_updated_on: 2014-06-24 14:41:12.000000000 Z
+- name: d3
+  description: A JavaScript visualization library for HTML and SVG
+  package_url: http://bower.io/d3
+  version: 3.3.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Irene Ros
+  last_updated_on: 2014-06-24 14:41:12.000000000 Z
+- name: mocha
+  description: Simple, flexible, fun test framework
+  package_url: http://bower.io/mocha
+  version: 1.20.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/piranna/d3.chart/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Irene Ros
+  last_updated_on: 2014-06-24 14:41:12.000000000 Z
